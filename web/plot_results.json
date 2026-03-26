@@ -1,0 +1,29 @@
+[
+{
+  "protocol": "UDP",
+  "results": [
+    {"payload": 8, "avg_rtt_ms": 0.053804, "throughput_mbps": 10.552711, "received": 1000},
+    {"payload": 64, "avg_rtt_ms": 0.036745, "throughput_mbps": 83.751073, "received": 1000},
+    {"payload": 256, "avg_rtt_ms": 0.040604, "throughput_mbps": 263.034107, "received": 1000},
+    {"payload": 512, "avg_rtt_ms": 0.040638, "throughput_mbps": 673.829671, "received": 1000}
+  ]
+},
+{
+  "protocol": "TCP",
+  "results": [
+    {"payload": 8, "avg_rtt_ms": 0.057325, "throughput_mbps": 23.498095},
+    {"payload": 64, "avg_rtt_ms": 0.030046, "throughput_mbps": 211.021592},
+    {"payload": 256, "avg_rtt_ms": 0.034690, "throughput_mbps": 731.064084},
+    {"payload": 512, "avg_rtt_ms": 0.024486, "throughput_mbps": 1411.045322}
+  ]
+},
+{
+  "protocol": "TCP",
+  "results": [
+    {"payload": 8, "avg_rtt_ms": 0.062039, "throughput_mbps": 17.906583},
+    {"payload": 64, "avg_rtt_ms": 0.030777, "throughput_mbps": 155.006678},
+    {"payload": 256, "avg_rtt_ms": 0.033170, "throughput_mbps": 698.018299},
+    {"payload": 512, "avg_rtt_ms": 0.028503, "throughput_mbps": 1391.777098}
+  ]
+}
+]

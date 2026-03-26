@@ -1,0 +1,262 @@
+2026.02.26 09:41:28 INFO  Started: Metals version 1.6.5 in folders '/Users/sushoonleikhaing/Desktop/CSC445/payload' for client Visual Studio Code 1.109.5.
+2026.02.26 09:41:28 INFO  Memory monitor started
+2026.02.26 09:41:28 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.26 09:41:28 WARN  no build tool detected in workspace '/Users/sushoonleikhaing/Desktop/CSC445/payload'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.02.26 09:41:28 WARN  Build server is not auto-connectable.
+2026.02.26 09:41:28 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java
+Feb 26, 2026 9:46:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/sushoonleikhaing/Desktop/CSC445/payload/NetUtil.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+2026.02.26 09:46:32 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 09:46:33 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java
+2026.02.26 09:46:32 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 09:46:45 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:46:45 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java
+2026.02.26 09:46:45 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:46:48 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java
+2026.02.26 09:46:48 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 09:46:50 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 09:46:50 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java
+2026.02.26 09:46:50 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 09:46:50 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 09:47:07 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 09:47:23 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 09:48:16 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 09:48:18 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 09:52:05 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 09:52:05 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java
+2026.02.26 09:52:05 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 09:52:08 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 09:52:09 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:52:09 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java
+2026.02.26 09:52:09 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:52:09 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:52:09 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:52:34 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:52:47 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:54:19 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:54:19 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:54:19 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:54:29 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:54:29 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:54:29 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:55:05 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:56:03 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:56:03 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:56:03 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java
+Feb 26, 2026 9:56:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+Feb 26, 2026 9:56:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+2026.02.26 09:56:09 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:56:09 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java
+2026.02.26 09:56:09 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:56:09 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:56:09 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 09:59:06 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:00:25 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:00:25 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java
+2026.02.26 10:00:25 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:00:26 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:00:40 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:02:45 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:02:45 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:02:47 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:02:47 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:02:48 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:02:50 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:02:50 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:02:50 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:03:02 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:02 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java
+2026.02.26 10:03:02 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:02 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:03 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:06 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:10 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:10 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java
+2026.02.26 10:03:10 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:10 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:14 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:14 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java
+2026.02.26 10:03:14 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:14 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:17 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:17 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java
+2026.02.26 10:03:17 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:17 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 10:03:22 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:03:22 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java
+2026.02.26 10:03:22 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:05:46 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:05:46 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:20:58 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:20:58 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:21:18 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:25:52 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:25:55 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:26:15 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:26:17 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:26:17 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:26:17 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:26:41 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:28:40 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:28:42 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:28:42 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:28:42 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:29:56 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:31:46 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:31:53 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:31:53 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:32:13 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:32:13 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:32:19 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:32:19 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:32:19 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:21 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:52:21 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java
+2026.02.26 10:52:21 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:52:21 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:52:29 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:29 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java
+2026.02.26 10:52:29 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:29 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:35 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:52:35 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java
+2026.02.26 10:52:35 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:52:35 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpServer.java. Using fallback presentation compiler.
+2026.02.26 10:52:37 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:37 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java
+2026.02.26 10:52:37 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:37 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:39 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:39 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java
+2026.02.26 10:52:39 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:39 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:43 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 10:52:43 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java
+2026.02.26 10:52:43 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 10:52:43 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/UdpServer.java. Using fallback presentation compiler.
+2026.02.26 10:52:46 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:46 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java
+2026.02.26 10:52:46 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:52:46 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:55:02 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:55:02 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:55:25 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:55:29 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:55:54 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:56:00 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+Feb 26, 2026 10:56:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 559
+2026.02.26 10:58:16 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:58:22 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:01 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:01 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:01 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:01 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:06 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:23 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:27 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:27 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:28 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:28 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:28 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 10:59:28 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:08 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:08 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:08 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:08 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:08 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:10 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:10 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:10 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:10 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:11 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:21 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:24 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:00:24 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+2026.02.26 11:12:31 INFO  Shutting down server
+2026.02.26 11:12:31 INFO  Memory monitor stopped
+2026.02.26 11:12:31 INFO  shutting down Metals
+2026.02.26 11:12:31 INFO  Exiting server
+2026.02.26 11:21:47 INFO  Started: Metals version 1.6.5 in folders '/Users/sushoonleikhaing/Desktop/CSC445/payload' for client Visual Studio Code 1.109.5.
+2026.02.26 11:21:47 INFO  Memory monitor started
+2026.02.26 11:21:47 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.26 11:21:48 WARN  no build tool detected in workspace '/Users/sushoonleikhaing/Desktop/CSC445/payload'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.02.26 11:21:48 WARN  Build server is not auto-connectable.
+2026.02.26 11:21:48 WARN  no build target for: /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java
+Feb 26, 2026 11:21:58 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.26 14:04:29 INFO  no build target found for /Users/sushoonleikhaing/Desktop/CSC445/payload/TcpClient.java. Using fallback presentation compiler.
+Feb 26, 2026 2:05:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.27 11:32:53 INFO  Shutting down server
+2026.02.27 11:32:53 INFO  Memory monitor stopped
+2026.02.27 11:32:53 INFO  shutting down Metals
+2026.02.28 16:21:49 INFO  Started: Metals version 1.6.5 in folders '/Users/sushoonleikhaing/Desktop/CSC445/payload' for client Visual Studio Code 1.109.5.
+2026.02.28 16:21:49 INFO  Memory monitor started
+2026.02.28 16:21:51 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.28 16:21:51 INFO  Shutting down server
+2026.02.28 16:21:51 INFO  Memory monitor stopped
+2026.02.28 16:21:51 INFO  shutting down Metals
+2026.02.28 16:21:51 INFO  Exiting server
